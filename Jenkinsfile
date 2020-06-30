@@ -3,6 +3,6 @@ node{
 	      git ' https://github.com/ajaypeter/maven.git '
 	     }
 	     stage('Compile-Package'){
-	      bat 'mvn package'
+	      echo 'mvn package'
 	     }
 	}
