@@ -3,6 +3,6 @@ node{
 	      git ' https://github.com/ajaypeter/maven.git '
 	     }
 	     stage('Compile-Package'){
-	      echo 'mvn -Dtest=GooglePage test -DfailIfNoTests=false'
+	      sh 'mvn -Dtest=GooglePage test -DfailIfNoTests=false'
 	     }
 	}
